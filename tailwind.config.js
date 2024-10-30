@@ -3,7 +3,7 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     container: {
-      paddding: {
+      padding: {
         DEFAULT: '15px',
       },
     },
@@ -34,16 +34,14 @@ module.exports = {
         custom1: '0 2px 40px 0 rgba(8, 70, 78, 0.08)',
         custom2: '0 0px 30px 0 rgba(8, 73, 81, 0.06)',
       },
-      backgfroundImage: {
-        services: "url('../..assets/img/services/bg.svg')",
-        testimonials: "url('../..assets/img/testimonials/bg.svg')",
-        departments: "url('../..assets/img/departments/bg.svg')",
-        quoteLeft: "url('../..assets/img/testimonials/quote-left.svg')",
-        quoteRight: "url('../..assets/img/testimonials/quote-right.svg')",
-
+      backgroundImage: { 
+        services: "url('../../assets/img/services/bg.svg')",
+        testimonials: "url('../../assets/img/testimonials/bg.svg')",
+        departments: "url('../../assets/img/departments/bg.svg')",
+        quoteLeft: "url('../../assets/img/testimonials/quote-left.svg')",
+        quoteRight: "url('../../assets/img/testimonials/quote-right.svg')",
       },
     },
   },
   plugins: [],
 };
-

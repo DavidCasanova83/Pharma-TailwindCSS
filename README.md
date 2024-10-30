@@ -23,3 +23,14 @@ Then create a new repo and copy paste the line of code to create a new git link 
 
 For adding specific color custom, add the color on tailwind.config.js
 # Pharma-TailwindCSS
+
+# Error @apply et @tailwind dans les fichiers en .css
+
+Ajouter cette ligne dans le fichier settings.json =>
+
+"files.associations": {
+  "*.css": "tailwindcss"
+},
+
+Ouvrir les settings.json CMD + SHIF + P
+
