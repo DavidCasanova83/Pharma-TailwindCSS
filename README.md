@@ -18,6 +18,10 @@ Then create a new repo and copy paste the line of code to create a new git link 
 - git commit -m "init git"
 - git push
 
+## Create new branch git
+
+- git checkout -b <nom_de_ta_branche>
+
 
 ## Add personnalised color with tailwindCSS
 

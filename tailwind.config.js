@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./public/**/*.{html,js}"],
+  safelist: [
+    'left-0',
+    '-left-[300px]'
+  ],
   theme: {
     container: {
       padding: {
